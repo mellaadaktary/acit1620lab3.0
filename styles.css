@@ -8,6 +8,7 @@ body {
 form {
     border: 1px solid #ccc;
     padding: 1rem;
+    margin-left: 150px;
 }
 
 input,
@@ -29,4 +30,73 @@ form button {
 }
 
 
- 
+ header {
+    background-color: teal;
+    color: black;
+    text-align: center;
+    padding: 1REM;
+    margin-bottom: 1rem;
+
+
+ }
+ .img{
+    width: 180px;
+    height: auto;
+    float: left;
+    left: 170px;
+    bottom: 60px;
+    margin-left: 5px;
+    margin-right: 10px;
+ }
+
+
+ul{
+    color: white;
+    float: left;
+    text-align: right;
+}
+li{
+    padding-bottom: 5px;
+    margin-right: 10px;
+
+}
+ a{
+    color: teal;
+    text-decoration: none;
+
+ }
+ footer{
+width: 100%;
+text-align: center;
+bottom: 0;
+position: absolute;
+background-color: teal;
+color: white;
+ }
+
+
+h2{
+    margin-left: 150px;
+}
+
+@media screen and (max-width: 600px){
+ul{
+    margin-right: 310px;
+    
+}
+    li{
+        border-right: 1px solid black;
+        height: 100px;
+       
+       
+        display: inline;
+        padding-left: 1px;
+        padding-right: 10px;
+    
+    }  
+    .img{
+        margin-left: 5px;
+    }
+    
+    
+}
